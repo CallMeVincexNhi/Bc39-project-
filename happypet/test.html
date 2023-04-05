@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+
+    <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		
+
+    <!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+
+    <style>
+    .hinh_phim{
+    width: 256px;
+    height: auto;
+    border-radius: 15px;
+}
+.danhgia{
+    display: inline-flex;
+}
+.thoigian{
+    display: flex;
+}
+.tenphim{
+    margin-bottom: 7px;
+}
+.phimds{
+    background-color: white;
+    height: 240px;
+    margin-top: 10px;
+}
+.hieu_ung{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    margin-left: 90px;
+	text-align: center;
+	margin-top:-77px;
+    z-index: 4;
+    opacity: 0;
+    transition: 1s;
+}
+.hieu_ung .nen {
+    width: 256px;
+    height: 170px;
+    background: #9b9a6d41;
+    position: relative;
+    z-index: 3;
+    border-radius: 15px;
+    opacity: 0;
+    transition: 0.5s;
+    margin-top: -170px;
+}
+.hieu_ung:hover .nen{ opacity: 1;}
+.hieu_ung:hover .icon{opacity: 1; }
+.thongtin{
+    padding-left: 30px;
+    width: 500px;
+}
+@media screen and (max-width: 768px) {
+  .thongtin {
+    padding-left: 0px;
+  }
+}
+     
+    </style>
+</head>
+<body>
+    <div class="container" style="margin-top: 100px;">
+        <div class="phimds row" >
+            <div class="hieu_ung ">
+                <img class="hinh_phim" src="images/bl1.jpg" alt="">
+                <div class="nen"></div>
+            </div>
+            <div class="thongtin ">
+                <h4 style="color: #F73859;" class="tenphim">Mèo bị bệnh – Những dấu hiệu tuyệt đối không thể bỏ qua</h4>
+                <p>Khi chó mèo bị bệnh, chúng không thể tự nói được mà chúng ta phải dựa vào các biểu hiện bên ngoài để nhận biết. Vì vậy b...</p>
+            </div>
+        </div>
+        <div class="phimds row" >
+            <div class="hieu_ung ">
+                <img class="hinh_phim" src="images/bl2.jpg" alt="">
+                <div class="nen"></div>
+            </div>
+            <div class="thongtin ">
+                <h4 style="color: #F73859;"class="tenphim">Mèo bị bệnh – Những dấu hiệu tuyệt đối không thể bỏ qua</h4>
+                <p>Khi chó mèo bị bệnh, chúng không thể tự nói được mà chúng ta phải dựa vào các biểu hiện bên ngoài để nhận biết. Vì vậy b...</p>
+            </div>
+        </div>
+        <div class="phimds row" >
+            <div class="hieu_ung ">
+                <img class="hinh_phim" src="images/bl3.jpg" alt="">
+                <div class="nen"></div>
+            </div>
+            <div class="thongtin ">
+                <h4 style="color: #F73859;" class="tenphim">Mèo bị bệnh – Những dấu hiệu tuyệt đối không thể bỏ qua</h4>
+                <p>Khi chó mèo bị bệnh, chúng không thể tự nói được mà chúng ta phải dựa vào các biểu hiện bên ngoài để nhận biết. Vì vậy b...</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
